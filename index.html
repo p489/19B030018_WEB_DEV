@@ -5,31 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="first.css">
 </head>
+<style>
+    .topnav {
+        background-color: black;
+        color: snow;
+        overflow: hidden;
+
+
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a {
+        float: left;
+        margin: 0px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+</style>
 
 <body>
-    <div id="about">
-        <h1><u>This web page is just an intro about me and consist of a BootCamp form at the end.</u></h1>
+    <div class="topnav">
+
+        <a href="#none">Home</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#form">Form</a>
+        <a href="#moreinfo">More Info</a>
+
     </div>
-    <fieldset>
+
+    <div>
+        <h1 id="about"><u>This web page is just an intro about me and consist of a BootCamp form at the end.</u></h1>
+    </div>
+    <fieldset id="info">
         <!--This is a legend, which is used for containing information which are interrelated to each other at one place.-->
         <legend>
             <h3>Personal Info</h3>
         </legend>
         <h3>NAME: </h3>
-        <p><i><h3>Parishi Gupta</h3></i></p>
-        <img src="images/myimage.jpeg" alt="here was a picture of me" width="350" height="250">
+        <p><i>
+                <h3>Parishi Gupta</h3>
+            </i>
+        </p>
+        <div id="myimg">
+            <img src="images/myimage.jfif" alt="here was a picture of me" width="350px" height="250px">
+        </div>
         <h3> EDUCATION :</h3>
         <p>I'm first year undergraduate student in <i>Chemistry</i> Department at IIT Bombay. </p>
     </fieldset>
-    <h2 style='text-align:center'><u>Hobbies</u></h2>
+    <h2 style='text-align:center; color:darkgoldenrod;'><u>Hobbies</u></h2>
     <p>There are lots of them, but I'll like to mention few of them:</p>
-    <ul>
+    <ul style="list-style-type: square;">
         <li>Playing Badminton</li>
         <li>Reading Books</li>
         <li>Listening music</li>
     </ul>
-    <h2 style='text-align:center'><i><u>Ambitions</u></i></h2>
+    <h2 style='text-align:center; color: darkmagenta;'><i><u>Ambitions</u></i></h2>
     <p>I don't have anything specific in my mind right now, previously I thought of becoming a <i>travel blogger </i> or
         <i> an astronaut.</i>
         But now I love exploring new fields that I find interesting .</p>
@@ -38,8 +78,9 @@
         me to my vision :)
     </p>
     <br>
-
-    <h1><u>BOOTCAMP FORM FOR LEARNER'S SPACE</u></h1>
+    <a name="form">
+        <h1 style="color:darkturquoise; text-align: center;"><u>BOOTCAMP FORM FOR LEARNER'S SPACE</u></h1>
+    </a>
     <form action="" method="POST">
         <fieldset>
             <legend style="text-align: center">
@@ -76,16 +117,25 @@
             </p>
             <button type="submit" onclick="alert('Cannot submit your form')">SUBMIT</button>
         </fieldset>
-
     </form>
 
-    <h1><u>Schedule</u></h1>
-    <table border ="2" cellpadding="50" width="100%" align="center">
+    <span>
+        <a name="schedule">
+            <h1><u>Schedule</u></h1>
+        </a>
+    </span>
+    <table border="2" cellpadding="35" width="50%" align="center">
         <caption>COURSE STRUCTURE</caption>
         <tr>
-            <th><h2>Course Name</h2></th>
-            <th><h2>Starting Date</h2></th>
-            <th><h2>Duration</h2></th>
+            <th>
+                <h2>Course Name</h2>
+            </th>
+            <th>
+                <h2>Starting Date</h2>
+            </th>
+            <th>
+                <h2>Duration</h2>
+            </th>
         </tr>
         <tr>
             <td>Web Development</td>
@@ -117,9 +167,13 @@
             <td>4 Weeks</td>
         </tr>
     </table>
- <footer><h3>For more information, please visit <a href="https://gymkhana.iitb.ac.in/~ugacademics/learnerspace_2020/index.php" target="_blank">
-    this link.</a> </h3></footer>
-
+    <a name="moreinfo">
+        <footer>
+            <h3>For more information, please visit <a
+                    href="https://gymkhana.iitb.ac.in/~ugacademics/learnerspace_2020/index.php" target="_blank">
+                    this link.</a> </h3>
+        </footer>
+    </a>
 
 
 
