@@ -4,177 +4,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="first.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </head>
-<style>
-    .topnav {
-        background-color: black;
-        color: snow;
-        overflow: hidden;
 
 
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .topnav a {
-        float: left;
-        margin: 0px;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 20px;
-
-    }
-</style>
 
 <body>
-    <div class="topnav">
 
-        <a href="#none">Home</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#form">Form</a>
-        <a href="#moreinfo">More Info</a>
+    <div class="container" style="margin-left:32rem; ">
+        <nav class="navbar navbar-expand-lg navbar-primary text-white">
+            <div class="collapse navbar-collapse bg" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Me</a>
+                    </li>
 
+                </ul>
+            </div>
+        </nav>
     </div>
-
-    <div>
-        <h1 id="about"><u>This web page is just an intro about me and consist of a BootCamp form at the end.</u></h1>
+    <div class="container my-4">
+        <h1>ABOUT ME</h1>
     </div>
-    <fieldset id="info">
-        <!--This is a legend, which is used for containing information which are interrelated to each other at one place.-->
-        <legend>
-            <h3>Personal Info</h3>
-        </legend>
-        <h3>NAME: </h3>
-        <p><i>
-                <h3>Parishi Gupta</h3>
-            </i>
+    <div class="jumbotron text-dark my-0 mx-auto" style="width:80%">
+        <h1 class="display-4">Hello, Reader!</h1>
+        <p class="lead">I'm <i>Parishi</i> currently pursuing Chemistry at IIT Bombay.</p>
+        <hr class="my-4">
+        <p class="my-0">I like to play sports very much especially Badmintion, but admist this pandemic I developed the
+            habbit of reading books which helped
+            me a lot to gain insights about the world and myself. I also like to try out and learn various new things.
         </p>
-        <div id="myimg">
-            <img src="images/myimage.jfif" alt="here was a picture of me" width="350px" height="250px">
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1>TOPICS</h1>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="card text-center">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-dark">Nanomaterials SOS project</h3>
+                        <p class="card-text text-dark">I did a Sumer Of Science on the topic <b>Nanomaterials</b>
+                            because I
+                            really liked the concept of
+                            just by subtle change in the property of a material you can create entirely a brand new
+                            material
+                            with completely different properties
+                            with a wide range of applications.
+                            But in the process of exploring this field I was really fascinated by the applications of it
+                            from very small to very large things
+                            happening around the globe. It was truly an enriching experience for me to do this project.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card text-center ">
+                    <div class="card-body">
+                    <h3 class="card-title text-dark">LS Web Development</h3>
+                    <p class="card-text text-dark   ">Initially I took this project as to explore this field, but
+                        eventually it had lead to my actual
+                        area of interest. This course is very efficient as it covers every aspects of each content and 
+                        also is designed for anyone whether beginner or someone else. 
+                        This course actually takes you to the path from novoice to actual applications which are used in
+                        industry currently.
+                        I'm really glad that I took up this course and I plan to continue to explore in this area in my
+                        future. </p>
+                    </div>        
+                </div>
+            </div>
         </div>
-        <h3> EDUCATION :</h3>
-        <p>I'm first year undergraduate student in <i>Chemistry</i> Department at IIT Bombay. </p>
-    </fieldset>
-    <h2 style='text-align:center; color:darkgoldenrod;'><u>Hobbies</u></h2>
-    <p>There are lots of them, but I'll like to mention few of them:</p>
-    <ul style="list-style-type: square;">
-        <li>Playing Badminton</li>
-        <li>Reading Books</li>
-        <li>Listening music</li>
-    </ul>
-    <h2 style='text-align:center; color: darkmagenta;'><i><u>Ambitions</u></i></h2>
-    <p>I don't have anything specific in my mind right now, previously I thought of becoming a <i>travel blogger </i> or
-        <i> an astronaut.</i>
-        But now I love exploring new fields that I find interesting .</p>
-    <p>I am quite unsure about my vision that basically what I've to do, but I believe exploring new aspects will
-        eventually lead to
-        me to my vision :)
-    </p>
-    <br>
-    <a name="form">
-        <h1 style="color:darkturquoise; text-align: center;"><u>BOOTCAMP FORM FOR LEARNER'S SPACE</u></h1>
-    </a>
-    <form action="" method="POST">
-        <fieldset>
-            <legend style="text-align: center">
-                <h3>Information</h3>
-            </legend>
-            <p>
-                <label for="user_name"> NAME: </label>
-                <input type="text" id="user_name" placeholder="Enter your Full Name" autofocus>
-            </p>
-            <p>
-                <label for="ldapid"> LDAP ID:</label>
-                <input type="text" id="ldapid" placeholder="IITB ROLL NO." autofocus>
-            </p>
-            <p>
-                <label for="pwd"> PASSWORD: </label>
-                <input type="password" id="pwd" placeholder="ENTER YOUR PASSWORD" autofocus>
+    </div>
 
-            </p>
-            <p>
-                <label for="courses">CHOOSE A COURSE:</label>
-                <select id="courses">
-                    <option value="none" selected>Select</option>
-                    <option value="webdev">Web Development</option>
-                    <option value="python">Python</option>
-                    <option value="latex">Latex</option>
-                    <option value="ml">Machine Learning</option>
-                    <option value="ds and algos">Data Structures And Algorithms</option>
-                </select>
-            </p>
-            <p>
-                <label for="notifications"></label>
-                <input type="checkbox" id="notifications" name=""> Receive E-Mails
 
-            </p>
-            <button type="submit" onclick="alert('Cannot submit your form')">SUBMIT</button>
-        </fieldset>
+<div class="container my-4">
+    <h1 class="my-4">Contact Form</h1>
+
+
+    <form action="https://formspree.io/xqkygvqn" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+        </div>
+     
+       
+        <div class="form-group">
+          <label for="msg">Your Message</label>
+          <textarea class="form-control" id="msg" rows="3" placeholder="Message" name="message"></textarea>
+        </div>
+
+            
+            <input type="submit"  value="Send" class="btn btn-outline-light btn-lg">
+        
     </form>
-
-    <span>
-        <a name="schedule">
-            <h1><u>Schedule</u></h1>
-        </a>
-    </span>
-    <table border="2" cellpadding="35" width="50%" align="center">
-        <caption>COURSE STRUCTURE</caption>
-        <tr>
-            <th>
-                <h2>Course Name</h2>
-            </th>
-            <th>
-                <h2>Starting Date</h2>
-            </th>
-            <th>
-                <h2>Duration</h2>
-            </th>
-        </tr>
-        <tr>
-            <td>Web Development</td>
-            <td>24th June, 2020</td>
-            <td>7 Weeks</td>
-        </tr>
-
-        <tr>
-            <td>Python</td>
-            <td>26th June, 2020</td>
-            <td>3 Weeks</td>
-        </tr>
-
-        <tr>
-            <td>Latex</td>
-            <td>23rd June, 2020</td>
-            <td>3 Weeks</td>
-        </tr>
-
-        <tr>
-            <td>Machine Learning</td>
-            <td>29th June, 2020</td>
-            <td>4 Weeks</td>
-        </tr>
-
-        <tr>
-            <td>Data Structures And Algorithms</td>
-            <td>1st July, 2020</td>
-            <td>4 Weeks</td>
-        </tr>
-    </table>
-    <a name="moreinfo">
-        <footer>
-            <h3>For more information, please visit <a
-                    href="https://gymkhana.iitb.ac.in/~ugacademics/learnerspace_2020/index.php" target="_blank">
-                    this link.</a> </h3>
-        </footer>
-    </a>
-
+</div>
+<!--footer-->
+<div class="footer">
+    Web Dev Project &copy; 2020
+</div>
 
 
 </body>
